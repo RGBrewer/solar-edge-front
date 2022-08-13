@@ -6,7 +6,7 @@
     "postinstall": "npx husky install",
     "ng": "ng",
     "start": "ng serve --port 8080",
-    "build": "ng build --prod",
+    "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "test:run": "ng test --watch=false --browsers ChromeHeadless",
